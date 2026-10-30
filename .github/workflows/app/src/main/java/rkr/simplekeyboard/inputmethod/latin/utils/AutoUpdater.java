@@ -24,9 +24,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.concurrent.Executors;
 
-public class AutoUpdater {
-    // এখানে আপনার GitHub Username এবং Repo Name বসান:
-    private static final String GITHUB_REPO = "YOUR_GITHUB_USERNAME/YOUR_REPO_NAME";
+public class AutoUpdater {https://github.com/Yasin-Os/Mykeyboard
+    private static final String GITHUB_REPO = "https://github.com/Yasin-Os/Mykeyboard";
 
     public static void checkForUpdate(final Context context) {
         Toast.makeText(context, "Checking for updates...", Toast.LENGTH_SHORT).show();
