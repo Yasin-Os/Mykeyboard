@@ -114,5 +114,4 @@ public class AutoUpdater {
     private static void showToast(Context context, String msg) {
         new Handler(Looper.getMainLooper()).post(() -> Toast.makeText(context, msg, Toast.LENGTH_SHORT).show());
     }
-   
 }
