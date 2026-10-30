@@ -34,4 +34,8 @@
     <Preference
         android:title="@string/license"
         android:key="license" />
+     <Preference
+        android:key="check_update"
+        android:title="Check for Updates (OTA)"
+        android:summary="Download latest build directly from GitHub" />
 </PreferenceScreen>
